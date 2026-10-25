@@ -1,0 +1,7 @@
+curl -s -b cookies.txt -X PUT 'http://localhost:5000/customer/auth/review/1?review=Excellent%20book%2C%20highly%20recommended!' | jq
+{
+  "message": "Review for ISBN 1 has been added/updated",
+  "reviews": {
+    "student01": "Excellent book, highly recommended!"
+  }
+}

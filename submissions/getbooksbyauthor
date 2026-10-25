@@ -1,0 +1,8 @@
+curl -s http://localhost:5000/author/Jane%20Austen | jq
+{
+  "8": {
+    "author": "Jane Austen",
+    "title": "Pride and Prejudice",
+    "reviews": {}
+  }
+}
